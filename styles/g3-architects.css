@@ -225,6 +225,21 @@ main > section{
     cursor: pointer;
 }
 
+footer{
+    width: 1440px;
+height: 80px;
+background:rgb(255, 244, 231);
+border-radius: 8px;
+margin:0 auto;
+justify-content: center;
+align-items: center;
+margin-top:80px;
+}
+
+.footer-text{
+    font-size: 20px;
+font-weight: 400;
+}
 
 /* responsive media query */
 
@@ -259,6 +274,10 @@ main > section{
         justify-items:center;
         gap:50px;
     }
+    footer{
+     width:100%;
+     text-align: center;
+    }
 }
 
 /* medium device's media query */
@@ -282,4 +301,9 @@ main > section{
         gap:50px;
        justify-items: center;
     }
+
+    footer{
+        width:100%;
+        text-align: center;
+       }
 }
