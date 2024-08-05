@@ -100,7 +100,6 @@ main > section{
     width:100%;
 }
 
-
 /* team and feature related styles */
 
 .teams{
@@ -263,6 +262,10 @@ font-weight: 400;
     }
     .our-features{
         margin-left:20px;
+    }
+
+    .featured-img img{
+        width:100%;
     }
 
     #experience-badge{
